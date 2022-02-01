@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0bb2d66-94c9-4bc6-afd5-534075e8395b">
+  <name>СтандартныеПодсистемыВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы в модели сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.ВходВОбластьДанных</content>
+  <content>CommonForm.ЗагрузкаДанныхВОбласть</content>
+  <content>CommonCommand.ВыгрузитьДанныеВЛокальнуюВерсию</content>
+  <content>CommonCommand.ЗагрузитьДанныеВОбласть</content>
+  <content>InformationRegister.УдалитьБлокировкиСеансовОбластиДанных</content>
+  <content>InformationRegister.НеразделенныеПользователи</content>
+  <content>InformationRegister.УдалитьОчередьЗаданий</content>
+  <content>DataProcessor.АвтоматическоеИзвлечениеТекстовДляВсехОбластейДанных</content>
+  <content>CommonCommand.ДобавитьПользователейСервиса</content>
+  <content>Constant.КлючОбластиДанных</content>
+  <content>CommonCommand.ЗагрузитьКурсыВалют</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанныхВМоделиСервиса</content>
+  <content>Catalog.ШаблоныЗаданийОчереди</content>
+  <content>InformationRegister.БлокировкиСеансовОбластейДанных</content>
+  <content>InformationRegister.УдалитьОбластиДанных</content>
+  <content>Constant.ПредставлениеОбластиДанных</content>
+  <content>Constant.ПрефиксОбластиДанных</content>
+  <content>Constant.ЧасовойПоясОбластиДанных</content>
+  <content>InformationRegister.УдалитьОчередьИзвлеченияТекста</content>
+  <content>Catalog.ОчередьЗаданий</content>
+  <content>Catalog.ОчередьЗаданийОбластейДанных</content>
+  <content>InformationRegister.ВерсииПодсистемОбластейДанных</content>
+  <content>InformationRegister.ОчередьИзвлеченияТекста</content>
+  <content>InformationRegister.ОбластиДанных</content>
+  <content>Constant.ДатаПоследнегоСтартаКлиентскогоСеанса</content>
+</mdclass:FunctionalOption>

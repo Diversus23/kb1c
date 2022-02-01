@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="017b28eb-8ba9-465e-a748-20eadbeb4ea2">
+  <name>СтандартныеПодсистемыВЛокальномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы в локальном режиме</value>
+  </synonym>
+  <location>Constant.НеИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Пользователи.Command.ПользователиИБ</content>
+  <content>DataProcessor.РезервноеКопированиеИБ</content>
+  <content>CommonCommand.ВыгрузитьДанныеДляПереходаВСервис</content>
+  <content>CommonCommand.ЗагрузитьДанныеИзСервиса</content>
+  <content>DataProcessor.ОбновлениеКонфигурации</content>
+  <content>DataProcessor.НастройкаРезервногоКопированияИБ</content>
+  <content>Catalog.КлассификаторБанковРФ.Command.КлассификаторБанковРФ</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанных</content>
+  <content>Report.АнализЖурналаРегистрации</content>
+  <content>InformationRegister.АдресныйКлассификатор.Command.АдресныйКлассификатор</content>
+</mdclass:FunctionalOption>

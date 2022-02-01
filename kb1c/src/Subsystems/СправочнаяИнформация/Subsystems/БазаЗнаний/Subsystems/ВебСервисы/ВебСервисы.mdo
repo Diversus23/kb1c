@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e13f9b-796e-48c9-bdb3-0bae9f50d53b">
+  <name>ВебСервисы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб-сервисы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>WebService.KnowledgeDB</content>
+  <parentSubsystem>Subsystem.СправочнаяИнформация.Subsystem.БазаЗнаний</parentSubsystem>
+</mdclass:Subsystem>

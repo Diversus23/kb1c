@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f63057d-01ca-47a0-95db-3285d5cadae4">
+  <producedTypes>
+    <refType typeId="45c03260-b464-4660-8cac-15a6e7c41d92" valueTypeId="5f905c5c-385f-456a-ba78-53cabeb406b6"/>
+    <listType typeId="b7065940-ffb5-481f-a3a2-472ccc6ffa34" valueTypeId="37a1ebe0-fd9f-430e-a6c5-db4569e4c598"/>
+    <managerType typeId="2e9400ca-0f63-49b8-b000-7371b1c9ef13" valueTypeId="1fd7c919-7425-41d7-a98b-9ef3d92ee3cb"/>
+  </producedTypes>
+  <name>ВидыНовостейБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды новостей базы знаний</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4e299e33-9efd-4442-98f5-4bc12af67ca5">
+    <name>Создание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6f2f90b-4c4f-40ed-bd05-b1f947bbb83d">
+    <name>Изменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e80ad050-7112-4609-8528-6cf993890b36">
+    <name>Удаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="589e7fe5-e600-4466-9cde-d199d2b17674">
+    <name>Оповещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61e32a51-30e7-4523-b85f-fdc4b3a2601a">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

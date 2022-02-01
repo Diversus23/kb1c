@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="516a140b-cc41-4b15-a21a-64aecf845c56">
+  <producedTypes>
+    <selectionType typeId="3e03cdda-49a1-44b4-ba22-8655ab9fa989" valueTypeId="c61b5507-1ad5-444d-86c4-f9bdd48db1df"/>
+    <listType typeId="fcd37e4a-0628-452f-a784-659917773821" valueTypeId="1a7a4fa8-5f8a-4b71-b828-05458dfe8a13"/>
+    <managerType typeId="e64e7595-c777-4cc0-9573-8d4638aebf97" valueTypeId="caf9c71c-a853-45a7-96c0-2e1ba163558c"/>
+    <recordSetType typeId="ec890041-d833-4fb9-9c3a-eb6337d0dc29" valueTypeId="e525b88b-962a-4110-99af-996cfa3da59e"/>
+    <recordKeyType typeId="a7b354b3-09f6-4b79-82d0-142a8277cfde" valueTypeId="452d0e1e-97c7-454d-8980-704fe5388e7e"/>
+    <recordType typeId="10b48f14-fbfa-428d-a921-0640fa084d5b" valueTypeId="1907f529-acbd-4d18-a066-47c80f53085c"/>
+    <recordManagerType typeId="09652457-0cf0-42f4-8d48-5134ae402245" valueTypeId="0b4d950e-5316-4215-9324-f424aacd0108"/>
+  </producedTypes>
+  <name>СвязьКомментариевБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь комментариев базы знаний</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="be8ad5c7-76d7-461e-a74d-38562b449015">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КомментарииБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="61e5a39f-a31a-4882-b0de-c6f1760b0df0">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КомментарииБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

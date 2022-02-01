@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d6683a3-1edd-4d04-8e02-0be002e4e5a4">
+  <name>ЗагрузкаКлассификатораБанковРФССайтаРБК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка классификатора банков РФ с сайта РБК</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСБанками.ЗагрузитьКлассификаторБанков</methodName>
+  <description>Загрузка классификатора банков</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>3600</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

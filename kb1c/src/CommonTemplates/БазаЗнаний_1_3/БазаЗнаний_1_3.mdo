@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc40e92c-3aac-4d2a-9f18-69008f32d60d">
+  <name>БазаЗнаний_1_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний (вер. 1.3)</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

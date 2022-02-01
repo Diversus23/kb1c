@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c66d0377-45bb-4ef0-bf9b-b44a9c510d38">
+  <name>ВариантыОтветовАнкетЗаполнитьЗначениеРеквизитаУпорядочивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ответов анкет заполнить значение реквизита упорядочивания</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ВариантыОтветовАнкет</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.НастройкаПорядкаЭлементов.ЗаполнитьЗначениеРеквизитаУпорядочивания</handler>
+</mdclass:EventSubscription>

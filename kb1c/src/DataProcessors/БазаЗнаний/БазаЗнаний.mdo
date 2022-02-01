@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92a3b60c-b289-47d0-b06c-17974a5925a9">
+  <producedTypes>
+    <objectType typeId="3f9a0d5c-6e58-4487-90ce-a988b6002693" valueTypeId="4da1fa91-654a-4fa0-a399-1dbdde42ce59"/>
+    <managerType typeId="b3e12415-c8b0-41dd-92ad-be4214da2210" valueTypeId="f7f1793f-35a5-46b5-95ba-4af761245591"/>
+  </producedTypes>
+  <name>БазаЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БазаЗнаний.Form.Форма</defaultForm>
+  <attributes uuid="9907f82a-c242-4d46-80e2-fef6506cd199">
+    <name>СтатьяБазыЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья базы знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c466200-047d-49a4-8e1c-9d69d1f8a11f">
+    <name>Область</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="acf2a214-bf55-4ebf-a84f-119f188dccf1">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="8f2da223-02f4-457d-8958-088f4d6f01a7">
+    <producedTypes>
+      <objectType typeId="b4c5d405-8ff4-4e7d-bb01-d8aecefa310f" valueTypeId="7bce6024-cc77-4c23-8649-49d6987cbe53"/>
+      <rowType typeId="c590f24d-e842-41d1-8d7c-7d57e9b087d1" valueTypeId="dae83031-99c8-42f0-aac1-1ba8e0656c28"/>
+    </producedTypes>
+    <name>История</name>
+    <synonym>
+      <key>ru</key>
+      <value>История</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="30998170-b447-4eb2-a35d-b0af0740488b">
+      <name>ТекстСтраницы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст страницы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="24d2a117-b6b2-461d-944d-499dff867c72">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="722f9222-71a3-43bf-8e74-e2ea8b52b17c">
+      <name>АдресСсылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес ссылки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="87d0c2d4-f131-4ce5-9983-eb6dc993e1b5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3bd90bc-5536-4aee-b73b-66d68f577202">
+    <name>Администрирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администрирование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="96c43ed0-12bf-40c1-b37f-43eb97472539">
+    <name>jquery_1_11_0</name>
+    <synonym>
+      <key>ru</key>
+      <value>jquery-1.11.0.js</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8a820fc7-bcd6-4f52-938f-1b86811d7cff">
+    <name>jquery_1_11_0_min</name>
+    <synonym>
+      <key>ru</key>
+      <value>jquery_1_11_0_min.js</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e8aac9a1-4728-4ed8-a336-32a3f440584c">
+    <name>kdb_script</name>
+    <synonym>
+      <key>ru</key>
+      <value>Kdb script</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="772224a5-9dd3-4f57-8b0d-f93261fa4b95">
+    <name>pictures_v1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pictures v1</value>
+    </synonym>
+    <comment>1.1</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="1e341a03-a23a-4b5d-a9eb-7923ae32e35a">
+    <name>ОткрытьБазуЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>База знаний</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.БазаЗнаний</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

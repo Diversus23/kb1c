@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8a4c5da-bc88-4f6e-9787-1c22c2f41be7">
+  <name>БанкиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки в модели сервиса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.БанкиСлужебныйВМоделиСервиса</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6059e0d-88b1-40b5-9115-30a7c8c51127">
+  <producedTypes>
+    <selectionType typeId="6e1c727c-bbb9-4e05-9d6b-8abd79876c36" valueTypeId="9aecfbc6-ffd7-4d7f-9d29-689d54ebb7d8"/>
+    <listType typeId="ddb4da71-a133-423b-9463-1781ee34a916" valueTypeId="f6065f84-a416-4ef2-8e06-444661e1a9be"/>
+    <managerType typeId="5fe655c7-49b0-4939-9823-6a3b845bb3de" valueTypeId="1d96e17b-041d-4826-bcb4-e2c299533e82"/>
+    <recordSetType typeId="94ed8166-2b49-4519-a4cd-48833b1131f1" valueTypeId="58f7c4c3-638c-4b4c-91cd-3c19010df435"/>
+    <recordKeyType typeId="e5327f52-6890-4245-875a-5fad6540edd9" valueTypeId="5ff54f04-e8ca-4828-a5b6-0b225ad24cf4"/>
+    <recordType typeId="f70e59e1-fb12-485d-8462-8f95e1790934" valueTypeId="0e318a37-edad-4935-a54a-d3644114e04c"/>
+    <recordManagerType typeId="88ac0a7c-3090-4ec8-a2f2-0633d04894ac" valueTypeId="8f3a7505-61a9-4f14-b4c3-e2974a67c3a0"/>
+  </producedTypes>
+  <name>БлокировкаСтатьейБазыЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка статьей базы знаний</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e36eebe4-0dee-4cb4-a5cb-0dcba73caf74">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1c31f935-a3ef-46f3-8538-f429988f4f51">
+    <name>ДатаБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата блокировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b4d97bd1-6b01-43a1-8601-ec867b1b7fbe">
+    <name>УдалитьПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользователиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a1d62cbf-d9f1-4d3d-b789-9d5f383e6b5e">
+    <name>СтатьяБазыЗнаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья базы знаний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиБазыЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7a27b1d0-5a2c-4f8b-9256-befd9b745cb5">
+    <name>Область</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="595059f4-6ed9-46c5-9626-8f16a63ac065">
+  <name>KnowledgeDB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб-сервис базы знаний</value>
+  </synonym>
+  <namespace>http://localhost/kdb1</namespace>
+  <descriptorFileName>kdb1.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="1738e292-4738-4a1f-9ee6-c7c86b0bf293">
+    <name>GetUsers</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get users</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetUsers</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="2add29be-7aec-487b-bff1-244b709d8628">
+    <name>StartSession</name>
+    <synonym>
+      <key>ru</key>
+      <value>Start session</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>StartSession</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ca5072c7-5acf-45cb-ae3f-827347a3c5a7">
+      <name>timeout</name>
+      <synonym>
+        <key>ru</key>
+        <value>Timeout</value>
+      </synonym>
+      <xdtoValueType>
+        <name>integer</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="9be1ee14-a066-422a-b026-70f1d005b15b">
+    <name>EndSession</name>
+    <synonym>
+      <key>ru</key>
+      <value>End session</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>EndSession</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a2dc85ad-140f-42ef-9e28-5e32826433b9">
+      <name>token</name>
+      <synonym>
+        <key>ru</key>
+        <value>Token</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="28825f84-5bac-4eda-968c-022dcc2a63a1">
+    <name>GetCategories</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get categories</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetCategories</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="20ca6e25-03e5-4cc2-9eea-8476eccf7a35">
+      <name>parent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Parent</value>
+      </synonym>
+      <comment>Родитель (id родителя, пустой - верхний уровень)</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="f953ee47-6766-466f-8a98-190c46fa2be4">
+      <name>nameFilter</name>
+      <synonym>
+        <key>ru</key>
+        <value>Name filter</value>
+      </synonym>
+      <comment>Отбор по вхождению в наименование</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="1e8f164a-69ba-4af0-bd4a-e1ae2ef83d4f">
+      <name>sortKey</name>
+      <synonym>
+        <key>ru</key>
+        <value>Sort key</value>
+      </synonym>
+      <comment>Правило сортировки (Code, Descr)</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

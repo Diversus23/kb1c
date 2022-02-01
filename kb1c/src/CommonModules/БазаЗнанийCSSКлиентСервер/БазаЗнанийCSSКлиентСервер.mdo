@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9147933c-ce6d-4ff8-8161-2b9ab06e5b90">
+  <name>БазаЗнанийCSSКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний CSS (клиент сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
